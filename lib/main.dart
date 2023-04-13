@@ -16,6 +16,7 @@ class CongressApp extends StatelessWidget {
     return MaterialApp(
       title: 'Congresso info',
       theme: AppTheme(context).defaultTheme,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen()
     );
   }
