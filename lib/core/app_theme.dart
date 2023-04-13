@@ -9,6 +9,7 @@ class AppTheme{
 
   ThemeData get defaultTheme => ThemeData(
     primaryColor: AppColors.primary,
+    backgroundColor: AppColors.gray,
     visualDensity: VisualDensity.adaptivePlatformDensity
   );
 }
